@@ -4,12 +4,80 @@
 \usepackage{hyperref}
 
 
-\title{Reading}
+\title{Survey}
 \author{Omolade Ikumapayi}
 \date{September 2022}
 
 \begin{document}
 
 \maketitle
+
+\section{Notes}
+\subsection{Ultra-Low Latency (ULL) Networks: The IEEE
+TSN and IETF DetNet Standards and Related
+5G ULL Research}
+This paper  \cite{nasrallah2018ultra} presents a survey of IEEE Time-sensitive networking standards and research studies with main focus on ultra-low latency in 5G networks. The survey is well-organized according to major categories like traffic flow concept, flow synchronization, flow management, flow control, and flow integrity. The survey also identifies the shortcomings and limitations of existing standards and research studies as a foundation for the development of standard improvements and future ULL research studies that address the identified issues.
+The problem (identifying the pitfalls and limitations of
+the existing standards and research studies in 5G ULL Research) is carefully formulated. It is a meaningful problem as the area is just gaining ground. This survey is very comprehensive and it is related to the work I am considering.
+
+\subsubsection{Quality as a Survey Paper}
+The paper compares and depicts the IEEE TSN task group (TG) timeline, highlighting significant milestones and depicting the transition from previous protocols to the newer ones.
+The survey provides an extremely detailed road map for how standards and research studies have improved ethernet network performance.The survey organized ideas, the summary for each category shows lessons learned, the authors simplified ULL architecture, and the paper is extremely useful for gaining a thorough understanding of the functionalities introduced by standards in the previous years. The survey also revealed a number of gaps and limitations in existing ULL networking mechanisms that provide a diverse range of services. However, this paper can include more evaluations, in terms of data evalaution, and comprehensively evaluate the cooperation of the various developed ULL mechanisms. Include
+configuration and cooperation of the various ULL mechanisms
+which will be critical for providing effective ULL services to
+the end users
+
+\subsubsection{Reasons it is highly cited}
+Although the paper's main focus is on 5G, it also provides a detailed background discussion for any research on TSN and DetNet ranging from robotics, V2X communications, network modeling, hardware and software design, and so on. The paper is applicable for a wide range of research and guides researchers for insights and research compatibility according to the standards.
+In this study, the survey generated a long list of future directions, as well as the main future design requirements for TSN research. The paper is useful not only for researchers but also for system designers.  
+
+\subsection{Recent Advances and Trends in On-Board
+Embedded and Networked Automotive Systems }
+This paper  \cite{bello2018recent}covers the cutting-edge design methodologies and forthcoming hardware/software solutions for the following generation of automobile systems, focusing particularly on embedded
+, as well as networked technologies. This survey examines existing models and projected trends, as well as
+On-board and automotive network in terms of functional safety and cybersecurity. It present a survey on core topics for on-board and
+networked automotive systems and addresses security issues.
+The problem is carefully formulated, the survey is novel as other surveys focused on on one specific challenge.The other known problems that are related are on understanding comparing technologies and advancements in different automation or industrial  applications. They paper discussed TSN core functions, however they are tons of paper that discussed that already.
+\subsubsection{Quality as a Survey Paper}
+ This paper gives details on different technological advances in different paper surveyed, however, they did not focus on evaluating or discussing  performance analysis. The paper t mainly focused on
+automotive SW, advanced execution platforms, on-board network communications, on-board cybersecurity, and functional
+safety with respect to software and hardware.
+The paper also highlighted the future research direction in this context and it is a good paper for not only new researcher but current ressearcher s to develop efficient models and languages for the automotive SW/HW development
+
+\subsection{A Perspective on IEEE
+Time-Sensitive Networking
+for Industrial Communication
+and Automation Systems}
+This paper \cite{bello2019perspective} reviewed and discussed the IEEE
+802.1 TSN in industrial communication and automation
+systems. They provided an overview of the existing projects
+and focused on some
+core TSN standards that are  considered highly relevant for
+industrial applications. They discussed application areas and elaborated on industrial automation and
+automotive applications in more detail. 
+The authors layout categories of TSN features that of importance and for research purpose such as  communication bandwidth, real-time performance, dependability/fault-tolerance, integrity and reliability), security ,flexibility, scalability, as well as configuration ease.  This paper also discussed the core TSN standards for critical systems. Overall, this paper is a revision of the standard and how it is applicable for automation. It is good paper new researchers, looking for opportunities in TSN.
+The problem is carefully formulated, it is noticeable that the authors were considering to propose research solutions related to the topic. It stated a right problem and proposed future directions. This is a useful paper in the TSN research.
+\subsubsection{Quality as a Survey Paper}
+The paper compares and contrast other papers and tells a story within its theme/story
+Must to compare and contrast the papers.
+ Must tell a story, with a theme and goal. 
+ Should help organize ideas for others
+ Need not be complete but should be through within its 
+theme/story.
+
+\subsection{TSN Algorithms for Large Scale Networks: A
+Survey and Conceptual Comparison }
+The research and standardization efforts for queuing and scheduling mechanisms for LDNs are organized in this survey \cite{nasrallah2019tsn} along with the key development strands of the mechanisms and their interdependencies, a thorough analysis of the several scheduling (forwarding) techniques used in large-scale networks to provide deterministic QoS. 
+\subsubsection{Quality as a Survey Paper}
+The paper compared and contrast other papers. I think
+The paper has includes a table that shows lists of paper surveyed according to each TSN core routing functions. 
+I do not think this paper is thorough within its theme/story
+\subsubsection{Reason Why it is low-cited}
+The topic is quite misleading, the keyword algorithm makes it sounds like scheduling algorithms or algorithm analysis, but the paper is also discussing TSN core functions. Also the survey s not as comprehensive.
+\section{Road Map}
+The TSN standards are being updated with time, most of the survey do not include a 
+Finally,  build a topic map of where there are gaps. using as many of the surveys as you found and discussing what you learned about the gaps and possible directions for a survey paper that has some novelty. 
+\bibliographystyle{IEEEtran}
+\bibliography{bib/bib}
 
 \end{document}
